@@ -1,0 +1,14 @@
+{
+    "name": "Yongchang Wu (武永昌)",
+    "short_name": "Yongchang Wu",
+    "icons": [
+       {
+          "src": "Profi.jpg?v=yongchang-wu-20261004",
+          "sizes": "463x640",
+          "type": "image/jpeg"
+        }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "display": "standalone"
+ }

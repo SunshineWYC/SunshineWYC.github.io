@@ -1,0 +1,173 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+title                    : "Yongchang Wu (武永昌)"
+description              : "Ph.D. student, Beihang University (BUAA). Focusing on 3D reconstruction, novel view synthesis, and spatial intelligence."
+repository               : "SunshineWYC/SunshineWYC.github.io"
+url                      : "https://sunshinewyc.github.io"
+baseurl                  : ""
+google_scholar_stats_enabled : false
+google_scholar_stats_use_cdn : true
+
+# google analytics
+google_analytics_id      :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site Author
+author:
+  name             : "Yongchang Wu <br /> (武永昌)"
+  avatar           : "images/Profi.jpg"
+  bio              : "LEVIR Group, BUAA"
+  bio_url          : "https://levir.buaa.edu.cn/"
+  location         : "Beijing"
+  employer         :
+  pubmed           : 
+  googlescholar    :
+  email            : "wu_yongchang@foxmail.com"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "SunshineWYC"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : #"rayeren"
+  dblp             :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - _pages/includes
+  - docs
+  - images/Resume.pdf
+  - Gemfile.lock
+  - run_server.sh
+  - CUSTOMIZE.md
+  - preview.cmd
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - README.md
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+  - google_scholar_crawler
+  - github_myprofile_updater
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

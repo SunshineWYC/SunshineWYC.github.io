@@ -1,0 +1,3 @@
+# 👋 About Me
+I am currently a Ph.D. student in the [LEVIR Group](https://levir.buaa.edu.cn/) at Beihang University (BUAA), supervised by Prof. [Zhengxia Zou](https://scholar.google.com.hk/citations?user=DzwoyZsAAAAJ&hl=en&oi=ao) and Prof. [Zhenwei Shi](https://scholar.google.com.hk/citations?user=kNhFWQIAAAAJ&hl=en&oi=ao). I received my master's degree from Beihang University in 2023, where I was also a member of the LEVIR Group. Previously, I received my bachelor's degree from Beihang University in June 2020. My research interests include 3D reconstruction, novel view synthesis, and spatial intelligence.
+
