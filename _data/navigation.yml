@@ -6,6 +6,9 @@ main:
   - title: "News"
     url: "/#-news"
 
+  - title: "Research Summary"
+    url: "/#-research-summary"
+
   - title: "Publications"
     url: "/#-publications"
 

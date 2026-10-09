@@ -40,6 +40,29 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+#-research-summary:before {
+    height: 4em;
+    margin-top: -4em;
+}
+
+.research-summary {
+    &__viewport {
+        max-width: 840px;
+        margin: 0 auto;
+        overflow-x: auto;
+
+        img {
+            display: block;
+            width: 100%;
+            // Keep the diagram's body text readable on narrow screens.
+            min-width: 800px;
+            max-width: none;
+            height: auto;
+        }
+    }
+
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
